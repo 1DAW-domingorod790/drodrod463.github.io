@@ -5,14 +5,12 @@ body {
 
 #betis, #sevilla {
     width: 50%;
-    height: 200vh;
+    height: 100vh;
     box-sizing: border-box;
     float: left;
     display: flex;
     justify-content: center;
     align-items: center;
-    position:fixed;
-    top:0;
 }
 
 #betis {
