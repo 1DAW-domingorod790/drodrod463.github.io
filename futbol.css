@@ -5,7 +5,7 @@ body {
 
 #betis, #sevilla {
     width: 50%;
-    height: 100vh;
+    height: 200vh;
     box-sizing: border-box;
     float: left;
     display: flex;
