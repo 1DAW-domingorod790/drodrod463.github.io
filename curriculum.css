@@ -1,0 +1,38 @@
+p, h3 {
+    font-family: sans-serif
+}
+
+h1, h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#datospersonales{
+    background-color: lightblue;
+    animation-duration: 4s;
+    animation-name: datospersonales;
+}
+@keyframes datospersonales{
+    from{background-color: beige;}
+    to{background-color: lightblue;}
+}
+
+#datosacademicos{
+    background-color: lightgreen;
+    transform: rotate(10deg);
+    display: inline-block;
+}
+
+#experiencia{
+    background-color: beige;
+}
+
+#aptitudes{
+    background-color: lightcoral;
+}
+
+#tabla{
+    text-align: center; 
+    border: 0;
+    width: 60%;
+    height: 60%;
+}
