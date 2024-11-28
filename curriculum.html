@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="curriculum.css">
+    <title>CURRICULUM</title>
+</head>
+<body text-align: center>
+    <table  align="center" id="tabla">
+        <h1 style="text-align: center;">
+            CURRICULUM VITAE
+        </h1>
+        <p style="text-align: center;">
+        <form  action="/ruta-de-tu-servidor" method="post" enctype="multipart/form-data">
+            <label for="imagen">Introduce tu foto: </label>
+            <input type="file" id="imagen" name="imagen" accept="image/*">
+            <br><br>
+        </form>
+        </p>
+        <td>
+    <table align="center" style="border: 2;">
+        <form action="mailto:micorreo@este.es" method="post" enctype="text/plain">
+        <td>
+    
+        <div id="datospersonales">
+        <br>
+            <h2 style="font-family: Arial, Helvetica, sans-serif;">DATOS PERSONALES</h2>
+        <p><label for="nombre">Escribe tu nombre: </label>
+            <input type="text" id="nombre" name="nombre" size="30" maxlength="30"/></p>
+        <p><label for="apellidos">Escribe tus apellidos: </label>
+            <input type="text" id="apellidos" name="apellidos" size="30" maxlength="30"/></p>
+        <p><label for="telefono">Escribe tu nº de teléfono: </label> 
+            <input type="text" id="telefono" name="telefono" size="30" maxlength="30"/></p>
+        <p><label for="email">Escribe tu correo electrónico: </label>
+            <input type="email" placeholder="Debe contener @" id="email" name="email" size="30" maxlength="30"/></p>
+        <p>Escribe tu dirección:</p>
+        <p><label for="calle">Calle: </label>
+            <input type="text" id="calle" name="calle" size="30" maxlength="30"/></p>
+        <p><label for="Npiso">Número de piso: </label>
+            <input type="text" id="Npiso" name="Npiso" size="30" maxlength="30"/></p>
+        <p><label for="Letracasa">Letra: </label>
+            <input type="text" id="Letracasa" name="Letracasa" size="30" maxlength="30"/></p>
+        <p><label for="CP">Código postal: </label>
+            <input type="text" id="CP" name="CP" size="30" maxlength="30"/></p>
+        <p><label for="Provincia">Provincia: </label>
+            <input type="text" id="Provincia" name="Provincia" size="30" maxlength="30"/></p>
+        
+        <br>
+        </div>
+        <div id="datosacademicos">
+            <br>    
+            <h2 style="font-family: Arial, Helvetica, sans-serif;">DATOS ACADÉMICOS</h2>
+            <p>
+                <input type="checkbox" id="primaria" name="primaria">
+                <label for="primaria">ED. PRIMARIA</label><br>
+                <input type="checkbox" id="eso" name="eso">
+                <label for="eso">ESO</label><br>
+                <input type="checkbox" id="bachillerato" name="bachillerato">
+                <label for="bachillerato">BACHILLERATO</label><br>
+                <input type="checkbox" id="CFGM" name="CFGM">
+                <label for="CFGM">CFGM</label><br>
+                <input type="checkbox" id="CFGS" name="CFGS">
+                <label for="CFGS">CFGS</label><br>
+                <input type="checkbox" id="universidad" name="universidad">
+                <label for="universidad">UNIVERSIDAD</label><br>
+                <input type="checkbox" id="master" name="master">
+                <label for="master">MASTER POST-GRADO</label><br>
+            </p>
+            <br>
+        </div>
+        <div id="experiencia">
+            <br>
+            <h2 style="font-family: Arial, Helvetica, sans-serif;">EXPERIENCIA LABORAL</h2>
+        <p>
+            <label for="estudios">Sectores: </label>
+		    <select id="estudios" name="estudios">
+		    <option>Informática</option>
+		    <option>Ingeniería</option>
+		    <option>Hostelería</option>
+		    <option>Recursos Humanos</option>
+            </select>
+            <label for="duracion">Indica la duración de esa experiencia: </label>
+            <input type="text" id="duracion" name="duracion">
+        </p>
+        <br>
+        </div>
+        <div id="aptitudes">
+            <br>
+        <h2 style="font-family: Arial, Helvetica, sans-serif;">APTITUDES PERSONALES</h2>
+        <p>
+            <label for="comentario1">Escribe tus principales aptitudes:</label></p>
+		<p>
+		<textarea id="comentario1" name="comentario1" rows="3" cols="40"></textarea>
+		</p>
+        <p>
+            <label for="comentario2">Escribe por qué deberías ser seleccionado para el puesto:</label></p>
+		<p>
+		<textarea id="comentario2" name="comentario2" rows="3" cols="40"></textarea>
+		</p>
+        <br>
+    </div>
+        </td>
+        </td>
+        <td>
+        <td style="background-color: aquamarine;">
+    
+        <h2 style="font-family: Arial, Helvetica, sans-serif;">IDIOMAS</h2>
+        <h3>Nivel de Inglés</h3>
+<p>Hablado:</p>
+<p>
+    <input type="radio" id="alto_ingles" name="ingles_hablado" value="alto" checked="checked">
+    <label for="alto_ingles">Alto</label>
+    <input type="radio" id="medio_ingles" name="ingles_hablado" value="medio">
+    <label for="medio_ingles">Medio</label>
+    <input type="radio" id="bajo_ingles" name="ingles_hablado" value="bajo">
+    <label for="bajo_ingles">Bajo</label>
+</p>
+<p>Escrito:</p>
+<p>
+    <input type="radio" id="alto_ingles_escrito" name="ingles_escrito" value="alto" checked="checked">
+    <label for="alto_ingles_escrito">Alto</label>
+    <input type="radio" id="medio_ingles_escrito" name="ingles_escrito" value="medio">
+    <label for="medio_ingles_escrito">Medio</label>
+    <input type="radio" id="bajo_ingles_escrito" name="ingles_escrito" value="bajo">
+    <label for="bajo_ingles_escrito">Bajo</label>
+</p>
+
+<h3>Nivel de Francés</h3>
+<p>Hablado:</p>
+<p>
+    <input type="radio" id="alto_frances" name="frances_hablado" value="alto" checked="checked">
+    <label for="alto_frances">Alto</label>
+    <input type="radio" id="medio_frances" name="frances_hablado" value="medio">
+    <label for="medio_frances">Medio</label>
+    <input type="radio" id="bajo_frances" name="frances_hablado" value="bajo">
+    <label for="bajo_frances">Bajo</label>
+</p>
+<p>Escrito:</p>
+<p>
+    <input type="radio" id="alto_frances_escrito" name="frances_escrito" value="alto" checked="checked">
+    <label for="alto_frances_escrito">Alto</label>
+    <input type="radio" id="medio_frances_escrito" name="frances_escrito" value="medio">
+    <label for="medio_frances_escrito">Medio</label>
+    <input type="radio" id="bajo_frances_escrito" name="frances_escrito" value="bajo">
+    <label for="bajo_frances_escrito">Bajo</label>
+</p>
+
+<h3>Nivel de Alemán</h3>
+<p>Hablado:</p>
+<p>
+    <input type="radio" id="alto_aleman" name="aleman_hablado" value="alto" checked="checked">
+    <label for="alto_aleman">Alto</label>
+    <input type="radio" id="medio_aleman" name="aleman_hablado" value="medio">
+    <label for="medio_aleman">Medio</label>
+    <input type="radio" id="bajo_aleman" name="aleman_hablado" value="bajo">
+    <label for="bajo_aleman">Bajo</label>
+</p>
+<p>Escrito:</p>
+<p>
+    <input type="radio" id="alto_aleman_escrito" name="aleman_escrito" value="alto" checked="checked">
+    <label for="alto_aleman_escrito">Alto</label>
+    <input type="radio" id="medio_aleman_escrito" name="aleman_escrito" value="medio">
+    <label for="medio_aleman_escrito">Medio</label>
+    <input type="radio" id="bajo_aleman_escrito" name="aleman_escrito" value="bajo">
+    <label for="bajo_aleman_escrito">Bajo</label>
+</p>
+
+        <p>
+            <label for="titulo">Escribe si tienes algún título oficial / experiencia hablando con nativos.</label><br>
+            <textarea id="titulo" name="titulo" rows="3" cols="40"></textarea>
+        </p>
+        <p><p><label for="otroidioma">Otro idioma: </label>
+            <input type="text" id="otroIdioma" name="otroIdioma" size="30" maxlength="30"/></p>
+		    <p>Hablado:</p>
+            <select id="otroIdioma" name="otroIdioma">
+            <option>Alto</option>
+		    <option>Medio</option>
+		    <option>Bajo</option>
+            </select>
+            <p>Escrito:</p>
+            <select id="otroIdioma" name="otroIdioma">
+            <option>Alto</option>
+		    <option>Medio</option>
+		    <option>Bajo</option>
+            </select>
+        </p>
+    </td>
+    </table>
+    <p style="text-align: center;">
+        <input type="submit"value="enviar formulario">
+		<input type="reset" value="borrar datos">
+    </p>
+</form>
+</table>
+</body>
+</html>
