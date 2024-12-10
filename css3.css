@@ -1,0 +1,91 @@
+#caja1{
+    float:none;
+    border-radius: 25px;
+    background: tomato;
+    padding: 20px; 
+    width: 65px;
+    height: 50px;
+}
+#caja2{
+    float:none;
+    border-radius: 25px;
+    background: blue;
+    padding: 20px; 
+    width: 140px;
+    height: 50px;
+}
+#transition{
+    width: 300px;
+    height: 90px;
+    background: red;
+    transition: width 2s;
+}
+#transition:hover{
+    width: 600px;
+}
+#opacidad1 {
+    background-color: #c52ac5;
+    opacity: 0.8;
+    padding: 10px;
+    display: inline-block;
+}
+
+#opacidad2 {
+    background-color: #c52ac5;
+    opacity: 0.4;
+    padding: 10px;
+    display: inline-block;
+}
+#columna1{
+    column-count:3;
+    column-gap: 40px;
+    column-rule-style: dashed;
+    column-rule-width: 1px;
+}
+#columna2{
+    column-count: 5;
+    column-gap: 40px;
+    column-rule-style: solid;
+    column-rule-width: 1px;
+}
+#caja1{
+background-color: beige;
+height: 100px;
+width:200px;
+animation-name: caja1;
+animation-duration: 3s;
+}
+@keyframes caja1{
+    from{background-color: beige;}
+    to{background-color: yellow;}
+}
+#caja2{
+    background-color: beige;
+    height: 100px;
+    width:200px;
+    animation-name: caja2;
+    animation-duration: 3s;
+}
+@keyframes caja2{
+    from{background-color: beige;}
+    to{background-color: green;}
+}
+#transicion-b{
+    height: 70px;
+    width: 70px;
+    background-color: aquamarine;
+    position:relative;
+    animation-name: b;
+    animation-duration: 5s;
+    animation-iteration-count: 4;
+    animation-direction: alternate-reverse;
+}
+@keyframes b{
+    0%{background-color: blue; left:0px; top:0px;}
+    25%{background-color: yellow; left:200px; top:0px;}
+    50%{background-color: green; left:200px; top:200px;}
+    75%{background-color: yellow; left:0px; top:200px;}
+    100%{background-color: blue; left:0px; top:0px;}
+}
+
+
