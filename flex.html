@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>EJEMPLOS DEL MÓDULO FLEX</title>
+    <style>
+        #flexbox1{
+  display: flex;
+  background-color: DodgerBlue;
+  justify-content: center;
+}
+
+#flexbox1 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+#flexbox2{
+  display: flex;
+  background-color: DodgerBlue;
+  justify-content: center;
+}
+
+#flexbox2 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+    </style>
+</head>
+<body>
+    <div id="flexbox1">
+        <div><table border="0" style="text-align: center;" width="560" height="315">
+            <caption><b>HORARIO DE CLASE 24-25</b></caption>
+            <thead style="text-align: center; font-family: Georgia, 'Times New Roman', Times, serif">
+                <th>HORAS</th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miércoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+            </tr>
+            </thead>
+            <tbody style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; text-align: center">
+            <tr>
+                <td>8:30</td>
+                <td class="prog">Programación</td>
+                <td class="prog">Programación</td>
+                <td class="ipe">IPE</td>
+                <td class="ipe">IPE</td>
+                <td class="prog">Programación</td>
+            </tr>
+            <tr>
+                <td>9:30</td>
+                <td class="prog">Programación</td>
+                <td class="prog">Programación</td>
+                <td class="ipe">IPE</td>
+                <td class="lm">LM</td>
+                <td class="prog">Programación</td>
+            </tr>
+            <tr>
+                <td>10:30</td>
+                <td class="prog">Programación</td>
+                <td class="lm">LM</td>
+                <td class="sos">SOS</td>
+                <td class="lm">LM</td>
+                <td class="prog">Programación</td>  
+            </tr>
+            <tr>
+                <td>11:30</td>
+                <td colspan="5" style="background-color: lightslategrey;"><b>RECREO</b></td>
+            </tr>
+            <tr>
+                <td>12:00</td>
+                <td class="bd">BD</td>
+                <td class="bd">BD</td>
+                <td class="sinf">SINF</td>
+                <td class="sinf">SINF</td>
+                <td class="sinf">EDD</td>
+            </tr>
+            <tr>
+                <td>13:00</td>
+                <td class="bd">BD</td>
+                <td class="bd">BD</td>
+                <td class="sinf">SINF</td>
+                <td class="sinf">SINF</td>
+                <td class="edd">EDD</td>
+            </tr>
+            <tr>
+                <td>12:00</td>
+                <td class="bd">BD</td>
+                <td class="bd">BD</td>
+                <td class="dig">DIG</td>
+                <td class="sinf">SINF</td>
+                <td class="edd">EDD</td>
+            </tr>
+            </tbody>
+        </table></div>
+        <div><img src="imagenes/patioleones.jpg" width="560" height="315"></div>
+        <div><iframe width="560" height="315" src="https://www.youtube.com/embed/QFXSgGg-HWo?si=Op8EzwCIUw1GMEJQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+    </div>
+    <div id="flexbox2">
+        <div><iframe src="3enlaces.html" width="560" height="315">ENLACE A LA PÁGINA 3ENLACES></iframe></div>
+        <div><iframe src="https://es.wikipedia.org/wiki/Wikipedia:Portada" width="560" height="315"></iframe></div>
+        <div><iframe src="curriculum.html" width="560" height="315"></iframe></div>
+    </div>
+</body>
+</html>
